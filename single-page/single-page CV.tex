@@ -1,0 +1,23 @@
+\documentclass[10pt]{article}
+
+\input{sub/packages.tex}
+
+\input{sub/commands.tex}
+
+\begin{document}\pagestyle{empty}
+
+\centerline{\Huge\bf Firstname Lastname}\vspace{4mm}
+
+\input{sub/sections/contact.tex}\vspace{-2mm}
+
+\begin{minipage}[t]{0.5\textwidth}
+	\input{sub/sections/education.tex}\vspace{-4mm}
+	\input{sub/sections/experience.tex}\vspace{0mm}
+\end{minipage}
+\hspace{4mm}
+\begin{minipage}[t]{0.5\textwidth}
+	\input{sub/sections/projects.tex}\vspace{0mm}
+	\input{sub/sections/skills.tex}\vspace{0mm}
+\end{minipage}
+
+\end{document}
